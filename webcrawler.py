@@ -17,7 +17,7 @@ class WebCrawler:
         self.attributes = attributes
         self.results = []
 
-    def extract_text_and_urls(self, url);
+    def extract_text_and_urls(self, url):
         try:
             # Send a GET request to the URL
             response = requests.get(url)
