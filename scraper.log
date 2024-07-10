@@ -1,0 +1,48 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imot.bg:443
+DEBUG:urllib3.connectionpool:https://www.imot.bg:443 "GET /pcgi/imot.cgi?act=3&slink=aumdiw&f1=1 HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+DEBUG:urllib3.connectionpool:http://localhost:8888 "POST /v1/chat/completions HTTP/11" 200 529
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imot.bg:443
+DEBUG:urllib3.connectionpool:https://www.imot.bg:443 "GET /pcgi/imot.cgi?act=3&slink=aumdiw&f1=1 HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+DEBUG:urllib3.connectionpool:http://localhost:8888 "POST /v1/chat/completions HTTP/11" 200 765
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+DEBUG:urllib3.connectionpool:http://localhost:8888 "POST /v1/chat/completions HTTP/11" 200 714
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imot.bg:443
+DEBUG:urllib3.connectionpool:https://www.imot.bg:443 "GET /pcgi/imot.cgi?act=3&slink=aumdiw&f1=1 HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imot.bg:443
+DEBUG:urllib3.connectionpool:https://www.imot.bg:443 "GET /pcgi/imot.cgi?act=3&slink=aumdiw&f1=1 HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imot.bg:443
+DEBUG:urllib3.connectionpool:https://www.imot.bg:443 "GET /pcgi/imot.cgi?act=3&slink=aumdiw&f1=1 HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imot.bg:443
+DEBUG:urllib3.connectionpool:https://www.imot.bg:443 "GET /pcgi/imot.cgi?act=3&slink=aumdiw&f1=1 HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
+ERROR:root:Error checking text with AI: HTTPConnectionPool(host='localhost', port=8888): Read timed out. (read timeout=10)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8888
