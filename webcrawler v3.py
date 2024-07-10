@@ -132,3 +132,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+#Find the word "комплекс" or its variations in the text and return True if found, otherwise return False.
