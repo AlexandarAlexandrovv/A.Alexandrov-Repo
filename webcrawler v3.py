@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+import re
 import json
 import time
 
@@ -18,19 +19,19 @@ class ImotBGScraper:
         self.model = model
         self.results = []
 
-    def extract_info(self, search_url):
+    def extract_info(self, search_url, limit=10):
         try:
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
             }
             response = requests.get(search_url, headers=headers)
             response.raise_for_status()
-            soup = BeautifulSoup(response.content, 'html.parser')
+            content = response.content.decode('windows-1251')
             
-            links = soup.select('a.lnk1[href]')  # Select all links with class="lnk1"
+            pattern = r'<a[^>]*\s+href=["\']([^"\']+)["\']*\s+class=["\'][^"\']*lnk1[^"\']*["\'][^>]*>.*?</a>'
+            matches = re.findall(pattern, content, re.IGNORECASE | re.DOTALL)[:limit]
             
-            for link in links:
-                href = link['href']
+            for href in matches:
                 full_url = urljoin(self.base_url, href)
                 content = self.extract_content(full_url)
                 
@@ -71,7 +72,7 @@ class ImotBGScraper:
 
     def check_with_ai(self, text):
         retries = 3
-        timeout = 60
+        timeout = 120  # Increase timeout to 2 minutes
         for attempt in range(retries):
             try:
                 headers = {
@@ -109,8 +110,8 @@ class ImotBGScraper:
                 return False
         return False
 
-    def crawl(self, search_url):
-        self.extract_info(search_url)
+    def crawl(self, search_url, limit=10):
+        self.extract_info(search_url, limit=limit)
         return self.results
 
 def main():
@@ -121,7 +122,7 @@ def main():
     search_url = 'https://www.imot.bg/pcgi/imot.cgi?act=3&slink=aum7dh&f1=1'  # URL for Blagoevgrad - Bansko
 
     scraper = ImotBGScraper(base_url, word_search_api_url, model)
-    results = scraper.crawl(search_url)
+    results = scraper.crawl(search_url, limit=10)  # Limiting to process only 10 URLs temporarily
     
     if results:
         print("Keyword was found in the following URLs:")
@@ -132,4 +133,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-#Find the word "комплекс" or its variations in the text and return True if found, otherwise return False.

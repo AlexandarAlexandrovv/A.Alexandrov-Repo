@@ -1,0 +1,20 @@
+<a class="lnk3" href="//www.imot.bg/pcgi/imot.cgi?act=5&amp;adv=1b171137004327370&amp;slink=aum7dh&amp;f1=1">Повече детайли и 11 снимки</a>
+<a class="lnk3" href="javascript:;" id="notepad_1b171137004327370" onclick="javascript:openLogPopup(1); return false;" title="Добави обявата в бележника. Изисква регистрация.">Добави в бележника</a>
+<a class="lnk3" href="javascript:;" onclick="javascript:mark(p1b171137004327370)">Маркиране/Размаркиране на Обявата</a>
+<a class="lnk3" href="javascript:;"><img align="absmiddle" alt="МАРКИРАЙ ОБЯВАТА" border="0" height="14" name="p1b171137004327370" onclick="javascript:mark(p1b171137004327370)" src="../images/picturess/print_n.gif" width="15"/></a>
+<a class="lnk3" href="//www.imot.bg/pcgi/imot.cgi?act=5&amp;adv=1b170265373754040&amp;slink=aum7dh&amp;f1=1">Повече детайли и 14 снимки</a>
+<a class="lnk3" href="javascript:;" id="notepad_1b170265373754040" onclick="javascript:openLogPopup(1); return false;" title="Добави обявата в бележника. Изисква регистрация.">Добави в бележника</a>
+<a class="lnk3" href="javascript:;" onclick="javascript:mark(p1b170265373754040)">Маркиране/Размаркиране на Обявата</a>
+<a class="lnk3" href="javascript:;"><img align="absmiddle" alt="МАРКИРАЙ ОБЯВАТА" border="0" height="14" name="p1b170265373754040" onclick="javascript:mark(p1b170265373754040)" src="../images/picturess/print_n.gif" width="15"/></a>
+<a class="lnk3" href="//www.imot.bg/pcgi/imot.cgi?act=5&amp;adv=1b171230775660681&amp;slink=aum7dh&amp;f1=1">Повече детайли и 6 снимки</a>
+<a class="lnk3" href="javascript:;" id="notepad_1b171230775660681" onclick="javascript:openLogPopup(1); return false;" title="Добави обявата в бележника. Изисква регистрация.">Добави в бележника</a>
+<a class="lnk3" href="javascript:;" onclick="javascript:mark(p1b171230775660681)">Маркиране/Размаркиране на Обявата</a>
+<a class="lnk3" href="javascript:;"><img align="absmiddle" alt="МАРКИРАЙ ОБЯВАТА" border="0" height="14" name="p1b171230775660681" onclick="javascript:mark(p1b171230775660681)" src="../images/picturess/print_n.gif" width="15"/></a>
+<a class="lnk3" href="//www.imot.bg/pcgi/imot.cgi?act=5&amp;adv=1b171862872077748&amp;slink=aum7dh&amp;f1=1">Повече детайли и 17 снимки</a>
+<a class="lnk3" href="javascript:;" id="notepad_1b171862872077748" onclick="javascript:openLogPopup(1); return false;" title="Добави обявата в бележника. Изисква регистрация.">Добави в бележника</a>
+<a class="lnk3" href="javascript:;" onclick="javascript:mark(p1b171862872077748)">Маркиране/Размаркиране на Обявата</a>
+<a class="lnk3" href="javascript:;"><img align="absmiddle" alt="МАРКИРАЙ ОБЯВАТА" border="0" height="14" name="p1b171862872077748" onclick="javascript:mark(p1b171862872077748)" src="../images/picturess/print_n.gif" width="15"/></a>
+<a class="lnk3" href="//www.imot.bg/pcgi/imot.cgi?act=5&amp;adv=1b171136810585686&amp;slink=aum7dh&amp;f1=1">Повече детайли и 13 снимки</a>
+<a class="lnk3" href="javascript:;" id="notepad_1b171136810585686" onclick="javascript:openLogPopup(1); return false;" title="Добави обявата в бележника. Изисква регистрация.">Добави в бележника</a>
+<a class="lnk3" href="javascript:;" onclick="javascript:mark(p1b171136810585686)">Маркиране/Размаркиране на Обявата</a>
+<a class="lnk3" href="javascript:;"><img align="absmiddle" alt="МАРКИРАЙ ОБЯВАТА" border="0" height="14" name="p1b171136810585686" onclick="javascript:mark(p1b171136810585686)" src="../images/picturess/print_n.gif" width="15"/></a>
